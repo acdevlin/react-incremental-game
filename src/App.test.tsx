@@ -12,6 +12,6 @@ describe('App', () => {
     );
 
     await expect(screen).toBeDefined();
-    await expect(screen.getByText(/Get started/i)).toBeInTheDocument();
+    await expect(screen.getByText(/You Are Imprisoned In A Mine/i)).toBeInTheDocument();
   });
 });
